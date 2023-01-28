@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+*{
+    font-family: 'Unbounded', cursive;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: all .2s linear;
+}
+
+html
+{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+  overflow-x: hidden;
+
+
+}
+body{
+  background-color:black;
+}
+
+section{
+
+}
+
+.header{
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 9%;
+  background-color: black;
+}
+  .logo
+  {
+    font-weight: bolder;
+    color: white;
+    font-size: 3rem;
+  }
+  .logo span{
+    color:red;
+  }
+
+.navbar a{
+  display: inline-block;
+  padding:1.5rem 2rem;
+  font-size: 1.7rem;
+  color:white;
+}
+.navbar a:hover{
+    background:red;
+}
+
+.t1
+{
+  color: white;
+  font-size: 7rem;
+  display: flex;
+  padding-left: 50%;
+  font-weight: bolder;
+}
+.t2{
+  color: white;
+  font-size: 7rem;
+  display: flex;
+  padding-left: 50%;
+  font-weight: bolder;
+}
+.home{
+  padding: 0;
+  margin-top: 6.5rem;
+}
+  .slide{
+    background-image: url(https://3dmodelshare.org/wp-content/uploads/2022/02/5408.-Gymroom-Interior-Sketchup-File-free-download-by-Nguyen-Duy-Diep-2.jpg);
+    height: 70vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:center;
+
+}
+.flexboxl{
+  padding:0.5%;
+ transition: 0.3s;
+ width: 40vw;
+ height:40vh;
+ margin-left: 20%;
+ margin-top: 3%;
+ margin-bottom: 1%;
+ border: 2px solid grey;
+ background-color:whitesmoke;
+
+
+}
+.flexboxl:hover {
+  box-shadow: 0px 5px 5px 0px gray;
+}
+.flexcontent{
+  font-size: 1.7rem;
+  line-height: 220%;
+}
+.flexboxr{
+  padding:0.5%;
+ transition: 0.3s;
+ width: 40vw;
+ height:40vh;
+ margin-left: 40%;
+
+ margin-bottom: 5%;
+ border: 2px solid grey;
+ background-color:whitesmoke;
+
+
+}
+.flexboxr:hover {
+  box-shadow: 0px 5px 5px 0px gray;
+}
+.title{
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-bottom: 2%;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: white;
+}
+
+.benefitscontent{
+  color:white;
+  font-size: 1.8rem;
+
+
+  position: relative;
+  left:10%;
+
+  top:10%;
+  bottom:20%;
+  margin-right: 20%;
+  line-height: 200%;
+  margin-bottom: 10%;
+
+}
+
+
+.benefits{
+  justify-content: center;
+  position: absolute;
+}
+
+.after{
+  position: absolute;
+  top:350%;
+}
+
+.box-container{
+  padding:5%;
+}
+
+.box1{
+  height:40rem;
+  overflow: hidden;
+  position: relative;
+  float:left;
+
+
+}
+.box1 img{
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+}
+.box2{
+  height:40rem;
+  overflow: hidden;
+  position: relative;
+  float:right;
+
+
+}
+.box2 img{
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+}
+.im{
+  float: right;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
