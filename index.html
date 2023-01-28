@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Fitness tips</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head> 
+    <body>
+        <h1>Fitness tips!</h1>
+        <section>
+            <div class="content">
+               <h2>Stand Up for Your Health </h2> <br>
+               <h3>Sitting is the new smoking!</h3>
+               <p> Make a point to stand up and move around for at least 2-3 minutes every hour.<br><br>
+
+                Quick tips: Set a reminder on your phone or computer to stand up and move around every hour. Use a standing or treadmill desk to encourage movement throughout the day.<br><br>
+                
+                Take short breaks to walk around the office or outside during lunch.<br><br>
+                
+                Incorporate stretching or light exercises into your work routine.<br><br>
+                
+                Make a habit of standing up and walking during phone calls.<br><br>
+                
+                Use a pedometer or fitness tracker to monitor your daily steps and aim to increase them.<br><br>
+                
+                Keep a water bottle nearby and refill it frequently to remind you to stand up.<br><br></p>
+                    <button id="read-more-button">Read More</button>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+               <h2>Deskercise</h2><br>
+               <h3> No gym membership required</h3>
+               <p>ncorporate small exercises into your workday, such as stretching, shoulder rolls, and desk chair dips. These exercises can help to alleviate tension and improve posture.<br><br> </p>
+                 <button id="read-more-button">Read More</button>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+               <h2>Stay Hydrated</h2><br>
+               <h3>Drink up to stay on top</h3>
+               <p>Drink water regularly throughout the day: Set a reminder to drink water every hour or so, and make sure to drink a glass or two with each meal.<br><br>
+
+                Carry a water bottle with you: Keep a refillable water bottle with you at all times, whether you're at work, running errands, or working out.<br><br>
+                
+                Eat water-rich foods: Fruits and vegetables like cucumbers, watermelon, and strawberries are high in water content and can help keep you hydrated.<br><br>
+                
+                Limit diuretics: Avoid beverages that can dehydrate you, such as alcohol and caffeine.<br><br>
+                
+                Check your urine color: If your urine is pale yellow, it's a sign that you're well-hydrated. If it's dark yellow or amber, you may need to drink more water.<br><br> </p>
+                <button id="read-more-button">Read More</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="content">
+               <h2>Take a Break</h2><br>
+               <h3>Because your brain needs it</h3>
+               <p>Taking short breaks throughout the day can help to reduce stress, improve focus, and boost productivity. Use this time to walk around, take a quick stretch, 
+                or simply look away from your computer screen </p>
+                <button id="read-more-button">Read More</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="content">
+               <h2>Eat Right</h2><br>
+               <h3>Fuel your body for the work ahead</h3>
+               <p>Eating a healthy diet can help to boost energy levels, improve mood, and prevent weight gain. Avoid processed foods, sugary snacks, and excessive caffeine. Instead, 
+                opt for fruits, vegetables, and lean proteins. </p>
+                <button id="read-more-button">Read More</button>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+               <h2>Good Posture</h2><br>
+               <h3>Sit up and take notice</h3>
+               <p>Maintaining good posture can help to prevent back pain, headaches, and muscle strain. Make sure your chair is adjusted to the right height, your computer screen is at eye level, 
+                and your feet are flat on the ground.</p>
+                <button id="read-more-button">Read More</button>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+               <h2>Stay Active</h2><br>
+               <h3>Physical activity is non-negotiable</h3>
+               <p>Regular exercise can help to improve overall health, reduce stress, and boost energy levels. Make a point to get at least 30 minutes of physical activity each day, whether it's going for a walk, 
+                hitting the gym, or taking a yoga class.</p>
+                <button id="read-more-button">Read More</button>
+            </div>
+        </section>
+        
+
+
+        <script src="scroll.js"></script>
+        <script type = "text/javascript">
+            ScrollOut({
+                targets: 'h2,h3,p'
+            });
+
+            document.querySelectorAll('#read-more-button').forEach(function(button) {
+                button.addEventListener('click', function() {
+                    window.location.href = "https://www.example.com";
+                });
+            });
+        </script>
+    </body>
+</html>
